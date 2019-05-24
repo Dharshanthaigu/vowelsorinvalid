@@ -2,7 +2,7 @@ def vowel_or_consonant(c):
   if not c.isalpha():
     return"invalid"
   vowels='aeiou'
-  if c.lower() in vowel:
+  if c.lower() in vowels:
     return"Vowels"
   else:
     return"Consonant"

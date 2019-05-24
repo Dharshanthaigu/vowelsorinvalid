@@ -3,7 +3,7 @@ def vowel_or_consonant(c):
     return"invalid"
   vowels='aeiou'
   if c.lower() in vowels:
-    return"Vowels"
+    return"Vowel"
   else:
     return"Consonant"
 c=input()
